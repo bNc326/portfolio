@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Montserrat;
+  scroll-behavior: smooth;
+}
+.hero-gradient {
+  background-image: url(./assets/Hero-bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.title-gradient {
+  background: linear-gradient(180deg, #00406c 0%, rgba(0, 21, 35, 0) 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+:root {
+  --red: #e01e37;
+  --light: #f4f4f9;
+  --cyan: #81b4b1;
+  --dark-cyan: #257384;
+  --gray-blue: #586f7c;
+  --gray-blue-2: #2f4550;
+  --dark: #000000;
+}
+
+/* .swiper-pagination {
+  @apply bg-palette-blue-3 p-4 rounded-full mr-4 customLarge:mr-2 mobile:hidden flex flex-col gap-2 w-10 customLarge:w-4 justify-center items-center;
+} */
+
+.referencePagination {
+  background: red;
+}
+.costume-pagination {
+  @apply w-6 h-6 transition-all duration-300 relative;
+}
+.costume-pagination:hover {
+  background: #107bfa;
+  opacity: 1;
+  animation: none;
+}
+.swiper-pagination-bullet {
+  background: #107bfa;
+}
+.costume-pagination-span {
+  display: none;
+  width: inherit;
+  height: inherit;
+  @apply items-center justify-center bg-inherit rounded-full animate-paginationOut text-white/0 absolute right-0 top-1/2 -translate-y-1/2 font-bold;
+}
+
+.costume-pagination:hover > .costume-pagination-span {
+  display: flex;
+  @apply animate-pagination transition-all duration-300;
+}
+
+.contactIcon {
+  width: clamp(1.5rem, 1vw, 1.75rem);
+  height: clamp(1.5rem, 1vw, 1.75rem);
+}
+
+@media (min-width: 992px) {
+  .hero-gradient {
+    background-image: url(./assets/Hero-bg-large.svg);
+  }
+}

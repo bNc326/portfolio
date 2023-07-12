@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 613.15 342.51">
+  <defs>
+    <linearGradient id="a" x1="325.53" y1="205.76" x2="325.53" y2="290.51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.02" stop-color="#f5f5f5"/>
+      <stop offset="0.18" stop-color="#b6b6b6"/>
+      <stop offset="0.29" stop-color="#8f8f8f"/>
+      <stop offset="0.35" stop-color="gray"/>
+      <stop offset="0.37" stop-color="#888"/>
+      <stop offset="0.41" stop-color="#9d9d9d"/>
+      <stop offset="0.45" stop-color="silver"/>
+      <stop offset="0.5" stop-color="#efefef"/>
+      <stop offset="0.52" stop-color="#fff"/>
+      <stop offset="0.61" stop-color="#fff"/>
+      <stop offset="0.64" stop-color="#e8e8e8"/>
+      <stop offset="0.71" stop-color="#a9a9a9"/>
+      <stop offset="0.77" stop-color="#828282"/>
+      <stop offset="0.79" stop-color="#737373"/>
+      <stop offset="0.82" stop-color="#787878"/>
+      <stop offset="0.86" stop-color="#888"/>
+      <stop offset="0.9" stop-color="#a2a2a2"/>
+      <stop offset="0.94" stop-color="#c5c5c5"/>
+      <stop offset="0.99" stop-color="#f3f3f3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="b" x1="144.71" y1="120.55" x2="497.57" y2="120.55" gradientUnits="userSpaceOnUse">
+      <stop offset="0.03" stop-color="#020202"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="c" x1="108.29" y1="222.89" x2="531.47" y2="222.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.19" stop-color="#dedede"/>
+      <stop offset="0.3" stop-color="#cfcfcf"/>
+      <stop offset="0.47" stop-color="#e6e6e6"/>
+      <stop offset="0.67" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="d" x1="29.09" y1="241.74" x2="252.76" y2="241.74" xlink:href="#b"/>
+    <linearGradient id="e" x1="140.93" y1="327.84" x2="140.93" y2="315.01" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.17" stop-color="#e1e1e1"/>
+      <stop offset="0.43" stop-color="#bababa"/>
+      <stop offset="0.56" stop-color="#ababab"/>
+      <stop offset="0.56" stop-color="#b8b8b8"/>
+      <stop offset="0.58" stop-color="#d2d2d2"/>
+      <stop offset="0.59" stop-color="#e6e6e6"/>
+      <stop offset="0.61" stop-color="#f4f4f4"/>
+      <stop offset="0.64" stop-color="#fdfdfd"/>
+      <stop offset="0.67" stop-color="#fff"/>
+      <stop offset="0.84" stop-color="#fff"/>
+      <stop offset="0.86" stop-color="#e8e8e8"/>
+      <stop offset="0.93" stop-color="#a9a9a9"/>
+      <stop offset="0.98" stop-color="#828282"/>
+      <stop offset="1" stop-color="#737373"/>
+    </linearGradient>
+    <linearGradient id="f" x1="140.93" y1="316.52" x2="140.93" y2="322.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.13" stop-color="#e1e1e1"/>
+      <stop offset="0.32" stop-color="#bababa"/>
+      <stop offset="0.42" stop-color="#ababab"/>
+      <stop offset="0.48" stop-color="#afafaf"/>
+      <stop offset="0.53" stop-color="#bbb"/>
+      <stop offset="0.59" stop-color="#cecece"/>
+      <stop offset="0.64" stop-color="#e9e9e9"/>
+      <stop offset="0.67" stop-color="#fff"/>
+      <stop offset="0.84" stop-color="#fff"/>
+      <stop offset="0.86" stop-color="#e8e8e8"/>
+      <stop offset="0.93" stop-color="#a9a9a9"/>
+      <stop offset="0.98" stop-color="#828282"/>
+      <stop offset="1" stop-color="#737373"/>
+    </linearGradient>
+    <clipPath id="g">
+      <rect x="34.97" y="174.72" width="211.92" height="134.04" fill="none"/>
+    </clipPath>
+    <linearGradient id="h" x1="418.08" y1="152.18" x2="569.17" y2="303.27" xlink:href="#c"/>
+    <linearGradient id="i" x1="418.83" y1="152.93" x2="568.49" y2="302.58" gradientTransform="translate(265.9 728.26) rotate(-90)" xlink:href="#b"/>
+    <linearGradient id="j" x1="423.74" y1="157.84" x2="564.01" y2="298.1" xlink:href="#c"/>
+    <clipPath id="k">
+      <rect x="440.06" y="148.98" width="114.04" height="164.4" fill="none"/>
+    </clipPath>
+    <linearGradient id="l" x1="521.96" y1="218.04" x2="655.38" y2="351.46" xlink:href="#c"/>
+    <linearGradient id="m" x1="523.08" y1="219.16" x2="653.9" y2="349.99" gradientTransform="translate(303.92 855.46) rotate(-90)" xlink:href="#b"/>
+    <clipPath id="n">
+      <rect x="517.2" y="246.56" width="124.97" height="58.41" rx="4.71" transform="translate(855.46 -303.92) rotate(90)" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>amelto_mockup</title>
+  <g>
+    <g>
+      <g>
+        <path d="M367.19,268.7h-.94l-5.63-59H290.44l-5.63,59h-.93l-12.82,13a4.93,4.93,0,0,0,3.51,8.4H376.5a4.93,4.93,0,0,0,3.51-8.4Z" fill="url(#a)"/>
+        <rect x="144.71" width="352.86" height="241.1" rx="8.72" fill="url(#b)"/>
+        <path d="M153.43,241.1H488.85a8.72,8.72,0,0,0,8.72-8.72v-27.7H144.71v27.7A8.71,8.71,0,0,0,153.43,241.1Z" fill="url(#c)"/>
+      </g>
+      <image width="1920" height="1080" transform="translate(155.48 10.26) scale(0.17)" xlink:href="../../../../Downloads/www.ameltoemlekezes.hu_(Large)%20(1).png"/>
+    </g>
+    <g>
+      <rect x="29.09" y="165.57" width="223.67" height="152.35" rx="5.33" fill="url(#d)"/>
+      <path d="M140.93,317.56H1a1,1,0,0,0-.35,2l8.41,2.95a47.61,47.61,0,0,0,15.78,2.69H257a47.66,47.66,0,0,0,15.78-2.69l8.4-2.95a1,1,0,0,0-.34-2Z" fill="url(#e)"/>
+      <path d="M157.82,322.16H124a4.6,4.6,0,0,1-4.6-4.6h43A4.6,4.6,0,0,1,157.82,322.16Z" fill="url(#f)"/>
+      <rect x="34.97" y="174.72" width="211.92" height="134.04" fill="#fff"/>
+      <g clip-path="url(#g)">
+        <image width="1728" height="1117" transform="translate(34.16 174.72) scale(0.12 0.12)" xlink:href="../../../../Downloads/www.ameltoemlekezes.hu_(MacBook%20Pro%2016_).png"/>
+      </g>
+    </g>
+    <g>
+      <rect x="432.76" y="141.7" width="128.65" height="178.97" rx="6.57" fill="url(#h)"/>
+      <rect x="408.59" y="167.85" width="176.98" height="126.66" rx="5.61" transform="translate(728.26 -265.9) rotate(90)" fill="url(#i)"/>
+      <rect x="440.06" y="148.98" width="114.04" height="164.4" fill="url(#j)"/>
+      <g clip-path="url(#k)">
+        <image width="1024" height="1366" transform="translate(439.06 148.98) scale(0.11 0.12)" xlink:href="../../../../Downloads/www.ameltoemlekezes.hu_(Ipad%20Pro%2012'.9').png"/>
+      </g>
+    </g>
+    <g>
+      <rect x="546.23" y="209.03" width="66.93" height="133.48" rx="8.83" fill="url(#l)"/>
+      <rect x="514.24" y="243.6" width="130.9" height="64.35" rx="7.58" transform="translate(855.46 -303.92) rotate(90)" fill="url(#m)"/>
+      <rect x="517.2" y="246.56" width="124.97" height="58.41" rx="4.71" transform="translate(855.46 -303.92) rotate(90)" fill="#fff"/>
+      <g clip-path="url(#n)">
+        <image width="390" height="844" transform="translate(550.48 213.29) scale(0.15 0.15)" xlink:href="../../../../Downloads/www.ameltoemlekezes.hu_(Iphone%2014).png"/>
+      </g>
+    </g>
+  </g>
+</svg>
