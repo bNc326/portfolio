@@ -78,7 +78,7 @@ const Reference = () => {
         </SwiperSlide>
         <SwiperSlide className="h-full w-full">
           <ReferenceCard
-            title={`Vendégház Projekt mini "MVC"`}
+            title={`Vendégház Projekt admin felület`}
             jobs="Web app fejlesztés"
             siteMap={[
               "Weboldal tervezése",
