@@ -14,6 +14,7 @@ import Admin from "../../../assets/mockups/admin_mockup.png";
 import Admin2 from "../../../assets/mockups/admin2_mockup.png";
 import { SiExpress } from "react-icons/si";
 import * as BiIcons from "react-icons/bi";
+import { TbBrandSocketIo } from "react-icons/tb";
 const Reference = () => {
   return (
     <Container>
@@ -29,7 +30,6 @@ const Reference = () => {
         //   disableOnInteraction: true,
         // }}
         modules={[Pagination, Navigation, Keyboard, Autoplay]}
-
       >
         <SwiperSlide className="h-full w-full">
           <ReferenceCard
@@ -92,6 +92,7 @@ const Reference = () => {
               { text: "NodeJs", icon: BiIcons.BiLogoNodejs },
               { text: "TypeScript", icon: BiIcons.BiLogoTypescript },
               { text: "TailwindCss", icon: BiIcons.BiLogoTailwindCss },
+              { text: "Socket.io", icon: TbBrandSocketIo },
             ]}
             images={[Admin, Admin2]}
             demoLink="https://guest-house-admin.onrender.com"
