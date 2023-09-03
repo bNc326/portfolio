@@ -44,7 +44,7 @@ const ReferenceCard: React.FC<Props> = (props) => {
                 animateOnce
                 animateIn="animate__fadeInUp"
               >
-                {list}
+                <pre>{list}</pre>
               </AnimationOnScroll>
             ))}
           </ul>

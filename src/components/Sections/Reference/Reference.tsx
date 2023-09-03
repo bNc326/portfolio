@@ -55,7 +55,7 @@ const Reference = () => {
         </SwiperSlide>
         <SwiperSlide className="h-full w-full">
           <ReferenceCard
-            title="Vendégház Projekt App"
+            title="Vendégház App"
             jobs="Web app fejlesztés"
             siteMap={[
               "Weboldal tervezése",
@@ -73,17 +73,18 @@ const Reference = () => {
             ]}
             images={[Guest, Guest2]}
             demoLink="https://guest-house-app.onrender.com"
-            workingProgress={true}
+            workingProgress={false}
           />
         </SwiperSlide>
         <SwiperSlide className="h-full w-full">
           <ReferenceCard
-            title={`Vendégház Projekt admin felület`}
+            title={`Vendégház admin felület`}
             jobs="Web app fejlesztés"
             siteMap={[
               "Weboldal tervezése",
               "Weboldal fejlesztése",
               "API összekötése az adatbázissal",
+              "Élő kommunikáció az API-val CRUD műveletekre"
             ]}
             techStack={[
               { text: "Mongodb", icon: BiIcons.BiLogoMongodb },
@@ -97,7 +98,7 @@ const Reference = () => {
             images={[Admin, Admin2]}
             demoLink="https://guest-house-admin.onrender.com"
             isAdmin
-            workingProgress={true}
+            workingProgress={false}
           />
         </SwiperSlide>
       </Swiper>

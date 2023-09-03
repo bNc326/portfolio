@@ -239,7 +239,7 @@ const Contact = () => {
   };
   return (
     <Container id="contact">
-      <div className="min-h-[600px] bg-gray-300 text-dark shadow-lg h-max  max-h-none flex w-full tall:w-[65%] flex-col justify-center rounded-xl overflow-hidden gap-4 p-4">
+      <div className="min-h-[600px] bg-gray-300 text-dark shadow-lg h-max  max-h-none flex w-full flex-col justify-center rounded-xl overflow-hidden gap-4 p-4">
         <AnimationOnScroll
           animatePreScroll={false}
           animateOnce

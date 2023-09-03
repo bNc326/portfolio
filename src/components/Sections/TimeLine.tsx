@@ -35,7 +35,7 @@ const TimeLine = () => {
             date={"2021-2022"}
             desc={"informatikai rendszer- és alkalmazás üzemeltető technikus"}
             list={[
-              "alap Python programmozási nyelv",
+              "C#, Python programmozás",
               "Cisco Hálózati eszközök konfigolása",
               "Hálózat tervezés, építés",
               "Windows, Linux Szerver üzemeltetés",
@@ -47,7 +47,7 @@ const TimeLine = () => {
             desc={"Informatikai ágazat és Érettségi"}
             last
             list={[
-              "alap C++ programozási nyelv",
+              "C# programozás",
               "Weboldal alapok (HTML, Css, JavaScript)",
             ]}
           />
@@ -73,13 +73,13 @@ export const Separator = () => {
 export const TimelineDescription: React.FC<TimeLine> = (props) => {
   return (
     <div className="flex flex-col gap-2">
-      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicTimelineTitle tall:text-2xl font-bold text-gray-blue-2">
+      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicTimelineTitle font-bold text-gray-blue-2">
         {props.title}
       </AnimationOnScroll>
-      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicMedium tall:text-xl text-gray-blue">
+      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicMedium text-gray-blue">
         Dátum: {props.date}
       </AnimationOnScroll>
-      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicTimelineTitle tall:text-2xl text-gray-blue-2">
+      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicTimelineTitle text-gray-blue-2">
         {props.desc}
       </AnimationOnScroll>
       <ul className="text-dark text-dynamicMedium">
