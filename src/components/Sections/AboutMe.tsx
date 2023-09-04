@@ -16,11 +16,11 @@ const AboutMe = () => {
         className="w-full flex flex-col items-center z-30 gap-4 order-2 text-dark"
       >
         <p className="max-w-[700px] text-justify text-dynamicDesc">
-          Kiss Bencének hívnak 20 éves vagyok egy kis faluban nőtem fel Kiskorom
-          óta érdekel az IT leginkább a programozás és a webfejlesztés. A
-          webfejlesztői “karrierem” kb 5 éve kezdetem édesapám weboldalának
-          fejlesztésével azóta sokmindent fejlesztettem rajta rengeteget
-          tanultam belőle, bár “Fizetős” tapasztalatom nincsen, de úgy érzem
+          Kiss Bencének hívnak 20 éves vagyok. Egy kis faluban nőttem fel
+          kiskorom óta érdekel az IT leginkább a programozás és a webfejlesztés.
+          A webfejlesztői “karrierem” kb 5 éve kezdtem édesapám weboldalának
+          fejlesztésével azóta sok mindent fejlesztettem rajta rengeteget
+          tanultam belőle, bár “Fizetős” tapasztalatom nincsen, de úgy érzem,
           hogy képes vagyok a frontend fejlesztői feladat betöltésére!
         </p>
         <div className="text-dynamicDesc">

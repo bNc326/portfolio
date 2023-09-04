@@ -310,7 +310,7 @@ const Contact = () => {
                   name="email"
                   onChange={inputChangeHandler}
                   onBlur={inputBlurHandler}
-                  placeholder="exmaple@exmaple.com"
+                  placeholder="example@example.com"
                   color={`${
                     formInput.email.firstTouch
                       ? formInput.email.valid

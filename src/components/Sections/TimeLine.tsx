@@ -35,7 +35,7 @@ const TimeLine = () => {
             date={"2021-2022"}
             desc={"informatikai rendszer- és alkalmazás üzemeltető technikus"}
             list={[
-              "alap Python programmozási nyelv",
+              "C#, Python programozás",
               "Cisco Hálózati eszközök konfigolása",
               "Hálózat tervezés, építés",
               "Windows, Linux Szerver üzemeltetés",
@@ -47,7 +47,7 @@ const TimeLine = () => {
             desc={"Informatikai ágazat és Érettségi"}
             last
             list={[
-              "alap C++ programozási nyelv",
+              "C# programozás",
               "Weboldal alapok (HTML, Css, JavaScript)",
             ]}
           />
