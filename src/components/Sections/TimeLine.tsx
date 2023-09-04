@@ -73,13 +73,13 @@ export const Separator = () => {
 export const TimelineDescription: React.FC<TimeLine> = (props) => {
   return (
     <div className="flex flex-col gap-2">
-      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicTimelineTitle tall:text-2xl font-bold text-gray-blue-2">
+      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicTimelineTitle font-bold text-gray-blue-2">
         {props.title}
       </AnimationOnScroll>
-      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicMedium tall:text-xl text-gray-blue">
+      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicMedium text-gray-blue">
         Dátum: {props.date}
       </AnimationOnScroll>
-      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicTimelineTitle tall:text-2xl text-gray-blue-2">
+      <AnimationOnScroll animatePreScroll={false} animateOnce animateIn="animate__fadeInUp" className="text-dynamicTimelineTitle text-gray-blue-2">
         {props.desc}
       </AnimationOnScroll>
       <ul className="text-dark text-dynamicMedium">
