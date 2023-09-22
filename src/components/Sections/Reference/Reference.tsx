@@ -39,6 +39,7 @@ const Reference = () => {
               "Weboldal tervezése",
               "Weboldal fejlesztése",
               "API fejlesztés",
+              "Ajánlatkérés logika megtervezése, lefejlesztése",
               "Rendszeres karbantartás/frissítés",
             ]}
             techStack={[
@@ -48,6 +49,8 @@ const Reference = () => {
               { text: "TypeScript", icon: BiIcons.BiLogoTypescript },
               { text: "HTML", icon: BiIcons.BiLogoHtml5 },
               { text: "Css", icon: BiIcons.BiLogoCss3 },
+              
+              { text: "TailwindCss", icon: BiIcons.BiLogoTailwindCss },
             ]}
             images={[Amelto, Amelto2]}
             demoLink="https://www.ameltoemlekezes.hu"
@@ -84,7 +87,7 @@ const Reference = () => {
               "Weboldal tervezése",
               "Weboldal fejlesztése",
               "API összekötése az adatbázissal",
-              "Élő kommunikáció az API-val CRUD műveletekre"
+              "Élő kommunikáció az API-val"
             ]}
             techStack={[
               { text: "Mongodb", icon: BiIcons.BiLogoMongodb },

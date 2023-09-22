@@ -36,7 +36,7 @@ const ReferenceCard: React.FC<Props> = (props) => {
               <BiSitemap size={32} />
             </span>
           </p>
-          <ul className=" text-dynamicDesc">
+          <ul className="text-dynamicDesc ">
             {props.siteMap.map((list, index) => (
               <AnimationOnScroll
                 key={index}
@@ -44,7 +44,7 @@ const ReferenceCard: React.FC<Props> = (props) => {
                 animateOnce
                 animateIn="animate__fadeInUp"
               >
-                <pre>{list}</pre>
+                <p className="">{list}</p>
               </AnimationOnScroll>
             ))}
           </ul>
