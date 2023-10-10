@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col gap-1 w-full laptop:text-left">
           <h3 className="font-medium flex justify-center text-dynamicTitle3 mobile:text-mobileDynamic3rem tall:text-dynamic2rem mobile:leading-[3.5rem] mobile:tall:text-4xl">
-            Junior Frontend Fejlesztő
+            Full Stack fejlesztő
           </h3>
         </div>
         <div className="w-full text-dynamicBtn flex flex-col mobile:flex-row tablet:flex-col laptop:flex-row tall:flex-row tall:flex-wrap gap-4 tall:gap-4 items-center justify-center mt-10">
