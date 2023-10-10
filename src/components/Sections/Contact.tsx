@@ -459,10 +459,7 @@ const Contact = () => {
             <span>
               <MdMap size={24} />
             </span>
-            <span>
-              8137 Mezőkomárom,{" "}
-              <span className="whitespace-nowrap">Petőfi Sándor utca 47.</span>
-            </span>
+            <span>8137 Mezőkomárom</span>
           </AnimationOnScroll>
           <AnimationOnScroll
             animatePreScroll={false}
