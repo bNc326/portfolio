@@ -7,7 +7,7 @@ interface Props {
   jobs: string;
   siteMap: Array<string>;
   images: Array<string>;
-  techStack: Array<{ icon: IconType; text: string }>;
+  techStack: Array<{ icon?: IconType; text: string }>;
   demoLink: string;
   isAdmin?: boolean;
   workingProgress?: boolean;
@@ -65,7 +65,7 @@ const ReferenceCard: React.FC<Props> = (props) => {
                 animateIn="animate__fadeInUp"
                 className="flex gap-1 items-center w-max border-2 border-dark rounded-full px-2"
               >
-                <stack.icon size={32} /> {stack.text}
+                {stack.icon ? <stack.icon size={32} /> : ""} {stack.text}
               </AnimationOnScroll>
             ))}
           </div>

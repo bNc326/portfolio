@@ -12,6 +12,8 @@ import Guest from "../../../assets/mockups/guest-app_mockup.png";
 import Guest2 from "../../../assets/mockups/guest-app2_mockup.png";
 import Admin from "../../../assets/mockups/admin_mockup.png";
 import Admin2 from "../../../assets/mockups/admin2_mockup.png";
+import Webshop from "../../../assets/mockups/webshop_mockup.png";
+import Webshop2 from "../../../assets/mockups/webshop2_mockup.png";
 import { SiExpress } from "react-icons/si";
 import * as BiIcons from "react-icons/bi";
 import { TbBrandSocketIo } from "react-icons/tb";
@@ -49,7 +51,7 @@ const Reference = () => {
               { text: "TypeScript", icon: BiIcons.BiLogoTypescript },
               { text: "HTML", icon: BiIcons.BiLogoHtml5 },
               { text: "Css", icon: BiIcons.BiLogoCss3 },
-              
+
               { text: "TailwindCss", icon: BiIcons.BiLogoTailwindCss },
             ]}
             images={[Amelto, Amelto2]}
@@ -87,7 +89,7 @@ const Reference = () => {
               "Weboldal tervezése",
               "Weboldal fejlesztése",
               "API összekötése az adatbázissal",
-              "Élő kommunikáció az API-val"
+              "Élő kommunikáció az API-val",
             ]}
             techStack={[
               { text: "Mongodb", icon: BiIcons.BiLogoMongodb },
@@ -101,6 +103,22 @@ const Reference = () => {
             images={[Admin, Admin2]}
             demoLink="https://guest-house-admin.onrender.com"
             isAdmin
+            workingProgress={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="h-full w-full">
+          <ReferenceCard
+            title={`Egyszerű webshop frontend (új)`}
+            jobs="Web app fejlesztés"
+            siteMap={["Frontend fejlesztés"]}
+            techStack={[
+              { text: "React", icon: BiIcons.BiLogoReact },
+              { text: "TypeScript", icon: BiIcons.BiLogoTypescript },
+              { text: "TailwindCss", icon: BiIcons.BiLogoTailwindCss },
+              { text: "MaterialUI" },
+            ]}
+            images={[Webshop2, Webshop]}
+            demoLink="https://webshop-project.onrender.com/"
             workingProgress={false}
           />
         </SwiperSlide>
