@@ -60,6 +60,22 @@ const Reference = () => {
         </SwiperSlide>
         <SwiperSlide className="h-full w-full">
           <ReferenceCard
+            title={`Egyszerű webshop frontend (új)`}
+            jobs="Web app fejlesztés"
+            siteMap={["Frontend fejlesztés"]}
+            techStack={[
+              { text: "React", icon: BiIcons.BiLogoReact },
+              { text: "TypeScript", icon: BiIcons.BiLogoTypescript },
+              { text: "TailwindCss", icon: BiIcons.BiLogoTailwindCss },
+              { text: "MaterialUI" },
+            ]}
+            images={[Webshop2, Webshop]}
+            demoLink="https://webshop-project.onrender.com/"
+            workingProgress={false}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="h-full w-full">
+          <ReferenceCard
             title="Vendégház App"
             jobs="Web app fejlesztés"
             siteMap={[
@@ -103,22 +119,6 @@ const Reference = () => {
             images={[Admin, Admin2]}
             demoLink="https://guest-house-admin.onrender.com"
             isAdmin
-            workingProgress={false}
-          />
-        </SwiperSlide>
-        <SwiperSlide className="h-full w-full">
-          <ReferenceCard
-            title={`Egyszerű webshop frontend (új)`}
-            jobs="Web app fejlesztés"
-            siteMap={["Frontend fejlesztés"]}
-            techStack={[
-              { text: "React", icon: BiIcons.BiLogoReact },
-              { text: "TypeScript", icon: BiIcons.BiLogoTypescript },
-              { text: "TailwindCss", icon: BiIcons.BiLogoTailwindCss },
-              { text: "MaterialUI" },
-            ]}
-            images={[Webshop2, Webshop]}
-            demoLink="https://webshop-project.onrender.com/"
             workingProgress={false}
           />
         </SwiperSlide>
